@@ -32,16 +32,27 @@
     list-style-type: none;
 }
 
+.list a {
+    text-decoration: none;
+}
+
+/* .list a:hover { */
+/* color: #fff; */
+/* } */
+
 .list-item {
     margin: 0px 16px;
     color: #b6b6b6;
 }
 
-
-
-ul> :first-child {
-    color: black;
+.list-item:hover {
+    color: #000000;
 }
+
+
+/* ul> :first-child { */
+/* color: black; */
+/* } */
 
 /* banner */
 
@@ -75,3 +86,16 @@ ul> :first-child {
 
 /* <!-- banner - Right text --> */
 
+footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+footer a {
+    color: #fff;
+    margin:0px 20px;
+}
